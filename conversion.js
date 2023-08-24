@@ -21,6 +21,7 @@ let conversions = {
   }
 };
 
+
 console.log(conversions.farhenheitToCelcius(3233))
 
 let newArray = []
@@ -50,5 +51,3 @@ else if(accept == '5'){
 else{
   alert('go an ask your grand father')
 }
-
-
