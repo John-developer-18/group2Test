@@ -24,7 +24,8 @@ let conversions = {
 console.log(conversions.farhenheitToCelcius(3233))
 
 let newArray = []
-let accept = prompt(`1. celcius to kelvin \n 2. kelvin to celcius \n 3. celcius to farhenheit \n 4. farhenheit to kelvin \n 5. farhenheit to celcius`)
+let name = prompt('what is your name')
+let accept = prompt(`Hey ${name} welcome to DeyPlay Converter Chose a function \n 1. celcius to kelvin \n 2. kelvin to celcius \n 3. celcius to farhenheit \n 4. farhenheit to kelvin \n 5. farhenheit to celcius`)
 
 if(accept == '1'){
   let acceptAgain = parseInt(prompt('Enter a celcius number'));
